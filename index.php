@@ -25,3 +25,7 @@ if (isset($_POST['submit'])) {
 
     } $kmm = array_intersect($array, $array1); echo "کوجکترین مضرب مشترک :" . end($kmm) . "<br>";}
 ?>
+<form method="post">
+    <label> عدد اول را وارد کنید</label><br/> <input type="number" name="numbers1"/><br/>
+    <label> عدد دوم را وارد کنید</label><br/> <input type="number" name="numbers2"/><br/> <input type="submit" name="submit" value="run"/>
+</form>
